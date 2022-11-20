@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <!-- uss GET , not POST -->
+    <div>
+        <form method="get" action="">
+            Username : <input type="text"     name="username"               required><br>
+            Password : <input type="password" name="password" minlength="8"  required><br>
+            Email    : <input type="email"    name="email"                  required><br>
+            Birthday : <input type="date"     name="birthday"               required><br>
+            Gender   : <br>
+            <input type="radio" name="gender" value="male"  > Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            <input type="radio" name="gender" value="other" > Other <br>
+            Pets     : <br>
+            <input type="checkbox" name="pet" value="cat"> Cat <br>
+            <input type="checkbox" name="pet" value="dog"> Dog <br>
+            Car : <br>
+            <select name="car">
+                <option value="Toyota" >Toyota</option>
+                <option value="Audi"   >Audi</option>
+            </select><br><br>
+    
+            <input type="submit" value="Register">
+            <input type="Reset">
+        </form>
+    </div>
+    
+</body>
+
+</html>
+
+<!-- username=khing
+&password=kkk1234564
+&email=kokhing039%40gmail.com
+&birthday=2022-11-02
+&gender=female
+&pet=cat
+&car=Toyota -->
