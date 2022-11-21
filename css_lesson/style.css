@@ -1,7 +1,46 @@
-h2{
-    color: darkorange;
+body{
+    background-image: url(bg_img.jpg);
+    background-size: cover;
 }
 
-p{
-    color: chartreuse;
+h2 {
+    color: darkorange;
+    text-align: center;
+    border: 5px solid rgb(255, 234, 0);
+    cursor: pointer;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
 }
+
+.author{
+    color: rgb(224, 236, 240);
+    text-decoration: underline;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+/* #nv_tap,.tap:hover{ */
+#nv_tap,.tap{
+    margin: 0px 5px;
+    color: rgb(245, 200, 17);
+    text-align: right;
+}
+
+.main_home{
+    color: chocolate;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+#lesson{
+    background: yellowgreen;
+    text-align: left;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+/* h2 p : element element (This is meaning p inside h2. ) 
+   <h2> <p> Hi </p> </h2>
+*/

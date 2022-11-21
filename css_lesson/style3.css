@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(254, 254, 254);
+}
+
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px ;
+    margin: 0px 60px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav_tap,.tap{
+    margin: 0px 5px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+#login{
+    margin: 250px 590px;
+}
+
+.pass{
+    margin: 0px 4px;
+}

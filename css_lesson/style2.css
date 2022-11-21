@@ -1,3 +1,46 @@
+body{
+    background-color: rgb(249, 245, 240);
+}
 h2{
-    color: aqua;
+    color: rgb(255, 60, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+.lorem{
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-transform: uppercase; */
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav_tap,.tap{
+    margin: 0px 5px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+.author{
+    color: rgb(255, 0, 89);
+    font-family: 'Dosis' , 'Poiret One' , cursive;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+.alpaca{
+    margin: 0px 680px;
 }

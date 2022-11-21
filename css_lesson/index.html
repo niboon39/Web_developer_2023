@@ -3,6 +3,7 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
     <!-- <style>
         li{
             background-color: bisque;
@@ -14,16 +15,21 @@
     <header>
         <nav>
             <ul>
-                <li>Home</li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
+                <div id="nv_tap">
+                    <li class="tap">Home</li>
+                    <li><a class="tap" href="about.html">About</a></li>
+                    <li><a class="tap" href="login.html">Login</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
     <section>
-        <h2>Home</h2>
-        <p>Niboon B.</p>
+        <h2><a class="main_home" href="index.html">Home</a></h2>
+        <p class="author">Niboon B.</p>
+        <div id="lesson">
+            <p>Hi, I'm Niboon, who's an engineer in Thailand. I'm interested in CSS.</p>
+        </div>
     </section>
 </body>
 </html>

@@ -2,27 +2,34 @@
 <html lang="en">
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>Login</li>
+                <div id="nav_tap">
+                    <li><a class="tap" href="index.html">Home</a></li>
+                    <li><a class="tap" href="about.html">About</a></li>
+                    <li class="tap">Login</li>
+                </div> 
             </ul>
         </nav>
     </header>
 
     <section>
         <form action="" method="get">
-            <div>
-                Username : <input type="text"><br>
-                Password : <input type="password" minlength="8" required><br>
+            <div id="login">
+                Username  <input type="text"><br>
+                Password  <input class="pass" type="password" minlength="8" required><br>
                 <input type="submit" name="submit">
             </div>
             
-        </form>
+        </form><br><br>
+        <div class="boxmodel">A</div>
+        <div class="boxmodel">B</div>
+        <div class="boxmodel">C</div>
     </section>
 </body>
 </html>
